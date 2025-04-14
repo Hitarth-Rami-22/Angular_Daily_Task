@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="../common/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body class="login-page">
+  <div class="login-container">
+    <h2>Welcome Back</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Email" required />
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" placeholder="Password" required />
+        <i class="fas fa-lock"></i>
+      </div>
+      <button type="submit">Login</button>
+      <p id="errorMsg" class="error"></p>
+    </form>
+  </div>
+
+  <script src="data-dump.js"></script> <!-- Load dummy data -->
+  <script src="login.js"></script>     <!-- Login functionality -->
+</body>
+</html>
